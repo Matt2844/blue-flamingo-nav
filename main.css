@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica';
+  background-color: rgb(89, 178, 255);
+  height: 2500px; 
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid blueviolet;
+  position: fixed; 
+  top: 0; 
+  width: 100%;
+}
+
+.scroll {
+  margin-top: 10%; 
+  margin-left: 5%;
+}
+
+.orange-box {
+  background-color: rgb(233, 164, 139);
+  margin-top: 30%;
+}
+
+#grey-box {
+  background-color: darkgrey;
+  margin-top: 30%;
+  height: 500px;
+  font-size: 20px;
+}
